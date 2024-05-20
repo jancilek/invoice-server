@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "http://your-frontend-url.com")
 @RequestMapping("/api")
 public class InvoiceController {
     @Autowired
