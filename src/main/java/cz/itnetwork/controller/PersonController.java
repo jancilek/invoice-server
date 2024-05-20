@@ -30,7 +30,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://your-frontend-url.com")
+@CrossOrigin(origins = "https://cute-capybara-818190.netlify.app/")
 @RequestMapping("/api")
 public class PersonController {
 
